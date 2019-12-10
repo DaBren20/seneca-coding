@@ -1,0 +1,122 @@
+/*
+ ============================================================================
+ Name        : reflect.txt
+ Author      : Brendan Polius Prosper
+ Email       : bkpoliusprosper@myseneca.ca
+ Student #   : 022541114
+ Course Code : IPC 144
+ Section     : NWW
+ Date        : November 27, 2019
+ Workshop    : Milestone 4 - home
+ ============================================================================
+*/
+
+/*
+ ============================================================================
+ Description: This Workshop was about creating an Employee database and the
+	      easy way that they are created is by using structs to help store
+	      the data entered. I first declared three structs in a seperate called 
+		  Name, Address and Numbers and initialize my variables within the 
+		  approprate structs with those structs made I was then able to make members
+		  within this file called name, address, and numbers.
+ ============================================================================
+ */
+===================
+
+| Workshop Reflection:|
+
+===================
+
+*****************
+
+|What I have learned| 
+
+*****************
+
+=========
+
+Question 1: How do the two functions findContactIndex and getTenDigitPhone benefit your source code
+			with respect to overall maintence and readability?
+
+=========
+
+*******
+
+Answer: The two functions findContactIndex and getTenDigitPhone are two of the most used functions in my code. 
+		instead of using that block of code over and over again I simply created those two functions and called them
+		whenever i needed them. This was good for my source code because it lessened the time needed to write the code
+		because instead of writing the same code over and over again I simply had to call those functions and it worked.
+		
+		This method is good for overall maintence and readability bacause calling the functions instead of writing them
+		multiple times makes the code easier to read and easier to maintain.
+*******
+
+=========
+
+Question 2: Would you have liked this assignment to include the functionality to load/save the contact information
+			from/to a text data file? Explain your decision.
+
+=========
+
+*******
+
+Answer: I think that this assignment doesn't really need the function to load/save data to a seperate text file. While it
+		would be a cool idea I don't think that it is neccessary because the contact data is already being stored in the 
+		structures that I created. 
+
+*******
+
+
+=============
+
+|Quiz Reflection|
+
+=============
+
+Q1: What is the output of the following program
+#include <stdio.h>
+int main(){
+	int age=45;
+	printf("%02d", age);
+	return 0;
+}
+
+Right Answer: 45
+
+Q2: What is the output of the following program
+#include <stdio.h>
+int main(){
+	char age[11]="IamTenOnly";
+	printf("%20.10s", age);
+	return 0;
+}
+
+Right Answer: __________IamTenOnly
+
+Q3: What is the output of the following program
+#include <stdio.h>
+int main(){
+	float age=.2;
+	printf("%2lf", age);
+	return 0;
+}
+
+Right Answer: 0.20
+
+Q4: What is the output of the following program
+#include <stdio.h>
+int main(){
+	int age=5;
+	printf("%02d", age);
+	return 0;
+}
+Right Answer: 05
+
+Q1: What is the output of the following program
+#include <stdio.h>
+int main(){
+	float age=22;
+	printf("%5.2lf", age);
+	return 0;
+}
+Right Answer: 0.22
